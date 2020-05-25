@@ -1,40 +1,40 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#define val 22
 
-int is_point(char p)
-{
-	if (p == '.')
-		return (1);
-	else
-		return (0);
-}
+int is_point(char p){return (p=='.');}
 
 char * defangIPaddr(char * address)
 {
 	int i;
 	int j;
 	char * cpy;
-	cpy = malloc(24);
 
-	i = 0;
-	j = 0;
-	while(address[i])
+	cpy = malloc(val);
+
+	if (strlen(address) > val)
 	{
-		if (is_point(address[i]))
+		return NULL;
+		exit;
+	}
+	j = 0;
+	while(*address)
+	{
+		if (is_point(*address))
 		{
 			cpy[j] =  '[';
-			cpy[j + 1] = address[i];
+			cpy[j + 1] = *address;
 			cpy[j + 2] = ']';
 			j = j+3;
-		
 		}
 		else
 		{
-			cpy[j] = address[i];
+			cpy[j] = *address;
 			j++;
 		}
 		
-		i++;
+		address++;
 	}
 	cpy[j] = '\0';
 	return cpy;
@@ -42,7 +42,7 @@ char * defangIPaddr(char * address)
 
 int main(){
 
-char * str = "1.1.1.1";
+char * str = "100.100.100.145";
 char * new_str;
 
 new_str = defangIPaddr(str);
