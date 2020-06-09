@@ -3,8 +3,6 @@
 #include <string.h>
 #define val 22
 
-int is_point(char p){return (p=='.');}
-
 char * defangIPaddr(char * address)
 {
 	int i;
@@ -21,7 +19,7 @@ char * defangIPaddr(char * address)
 	j = 0;
 	while(*address)
 	{
-		if (is_point(*address))
+		if (*address == '.')
 		{
 			cpy[j] =  '[';
 			cpy[j + 1] = *address;
