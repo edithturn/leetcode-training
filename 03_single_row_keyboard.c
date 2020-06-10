@@ -9,6 +9,7 @@ while(keyboard[i])
 		return i;
 	i++;
 }
+return 0;
 }
 int calculateTime(char *keyboard, char *word){
 	int index;
