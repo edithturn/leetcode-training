@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <stdio.h>
+#include <string.h>
 /*
 **Balanced strings are those who have equal quantity of 'L' and 'R' characters.
 **Given a balanced string s split it in the maximum amount of balanced strings.
@@ -39,7 +40,7 @@ int balancedStringSplit(char * s)
 		cl = c;
 		c = 1;
 		i++;
-		while(s[i + 1] != '\0' && s[i] == s[i + 1])
+		while(i <= strlen(&s[i]) && s[i] == s[i + 1])
 		{
 			if (cl == c)
 			{
