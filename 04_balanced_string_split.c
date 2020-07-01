@@ -31,7 +31,7 @@ int balancedStringSplit(char * s)
 	i = 0;
 	while(s[i] != '\0')
 	{
-		while(s[i] == s[i + 1])
+		while(s[i + 1] != '\0' && s[i] == s[i + 1])
 		{
 			c = c + 1;
 			i++;
@@ -39,7 +39,7 @@ int balancedStringSplit(char * s)
 		cl = c;
 		c = 1;
 		i++;
-		while(s[i] == s[i + 1])
+		while(s[i + 1] != '\0' && s[i] == s[i + 1])
 		{
 			if (cl == c)
 			{
@@ -65,7 +65,7 @@ int main()
 	int r;
 	char *str;
 
-	str = "RLRRRLLRLL";
+	str = "RLLLLRRRLR";
 	r = balancedStringSplit(str);
 	printf("%d", r);
 	return (0);
