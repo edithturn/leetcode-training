@@ -21,51 +21,31 @@
 
 int balancedStringSplit(char * s)
 {
-	int cl;
+	int r;
 	int total;
-	int i;
-	int c;
 
-	c = 1;
-	cl = 0;
-	total = 0;
-	i = 0;
-	while(s[i] != '\0')
+	r = 0;
+	total =0;
+	for(int i = 0; i < strlen(s); i++)
 	{
-		while(s[i + 1] != '\0' && s[i] == s[i + 1])
+		if(s[i] == 'R')
 		{
-			c = c + 1;
-			i++;
+			total++;
+		}else {
+			total--;
 		}
-		cl = c;
-		c = 1;
-		i++;
-		while(i <= strlen(&s[i]) && s[i] == s[i + 1])
+		if(total == 0)
 		{
-			if (cl == c)
-			{
-				cl = 0;
-				c = 1;
-				total = total + 1;
-			}
-			c = c + 1;
-			i++;
+			r++;
 		}
-		if (cl == c)
-		{
-			cl = 0;
-			c = 1;
-			total = total + 1;
-		}
-		i++;
 	}
-	return (total);
+		return r;
 }
+
 int main()
 {
 	int r;
 	char *str;
-
 	str = "RLLLLRRRLR";
 	r = balancedStringSplit(str);
 	printf("%d", r);
