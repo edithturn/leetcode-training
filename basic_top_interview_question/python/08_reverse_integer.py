@@ -5,7 +5,6 @@ def reverse(x):
 	"""
 	num = 0
 	flag = "false"
-
 	if x >= 2**31-1 or x <= -2**31: return 0
 	if (x < 0):
 		flag = "true"
