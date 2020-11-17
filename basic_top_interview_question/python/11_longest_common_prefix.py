@@ -12,6 +12,8 @@ def longestCommonPrefix(strs):
 	for  i in strs[0]:
 		if strs[-1].startswith(prefix+i):
 			prefix += i
+		else:
+			break
 	return prefix
 
 
