@@ -1,5 +1,4 @@
-# Valid Parentheses
-
+# Valid Parenthesese to Paris maybe:)
 # Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 #An input string is valid if:
 	#Open brackets must be closed by the same type of brackets.
@@ -7,19 +6,25 @@
 
 
 def isValid(s: str) -> bool:
-	is_valid = True
+	_open = ["(", "{", "["]
+	_close = [")", "}", "]"]
 	stack = []
-	open_p = ['(', '{', '[']
-	close_p = [')', '}', ']' ]
-	for i in s:
-		if i in open_p:
-			stack.append(i)
-		elif i in close_p:
-			if len (stack) <= 0:
+	for item in s:
+		if item in _open:
+			stack.append(item)
+		else:
+			if len(stack) <= 0:
 				return False
-			if open_p.index(stack.pop()) != close_p.index(i):
-				return False
+			else:
+				if _open.index(stack.pop()) != _close.index(item) :
+					return False
 	return len(stack) == 0
 
-s = "{[]}"
+#s = "()"
+#s = "()[]{}"
+#s = "(]"
+#s = "([)]"
+#s = "{[]}"
+#s = "{"
+s = "(("
 print(isValid(s))
