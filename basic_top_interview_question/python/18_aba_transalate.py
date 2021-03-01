@@ -11,7 +11,6 @@
 # aba_translate(“Africa is Africa in German”) #=> “Abafribicaba ibis Abafribicaba ibin Gebermaban”
 
 
-
 def aba_translate(string):
     vowels_min = ['a', 'e', 'i', 'o', 'u']
     vowels_max = ['A', 'E', 'I', 'O', 'U']
