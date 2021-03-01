@@ -13,11 +13,13 @@
 
 
 def element_replace(_list, _dic):
-    for key, item in enumerate(_list):
+    new_list = []
+    for item in _list:
         if item in _dic:
-            _list[key] = _dic[item]
-    return _list
-
+           new_list.append(_dic[item])
+        else:
+            new_list.append(item)
+    return new_list
 list1 = ["LeBron James", "Lionel Messi", "Serena Williams"]
 dict1 = {"Serena Williams": "tennis", "LeBron James": "basketball"}
 

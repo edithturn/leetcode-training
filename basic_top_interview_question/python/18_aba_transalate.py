@@ -12,16 +12,17 @@
 
 
 def aba_translate(string):
-    vowels_min = ['a', 'e', 'i', 'o', 'u']
-    vowels_max = ['A', 'E', 'I', 'O', 'U']
+    l_vowels = ['a','e','i','o','u']
+    u_vowels = ['A','E','I','O','U']
+
     new_string = ""
-    
     for letter in string:
         new_string += letter
-        if letter in vowels_min or letter in vowels_max:
+        if letter in l_vowels or letter in u_vowels:
             new_string += 'b'
             new_string += letter.lower()
     return new_string
+
 
 string1 = "Cats and dogs"
 string2 = "Everyone can code"

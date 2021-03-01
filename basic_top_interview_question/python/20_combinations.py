@@ -1,4 +1,3 @@
-Combinations
 # Write a method `combinations` that takes in a list of unique elements, and returns a 2D list representing all possible combinations of 2 elements of the list.
 
 # combinations(["a", "b", "c"]) # => [ [ "a", "b" ], [ "a", "c" ], [ "b", "c" ] ]
@@ -8,22 +7,24 @@ Combinations
 
 
 def combinations(my_list):
-
+    tmp_list = []
+    final_list = []
     _len = len(my_list) - 1
-    new_list = []
-    tmp = []
-    count = 0
+    index = 0
 
     for i in range(0, _len):
-        count = i + 1
-        while count < len(my_list):
-            tmp = []
-            tmp.append(my_list[i])
-            tmp.append(my_list[count])
-            count += 1
-            new_list.append(tmp)        
-    return (new_list)
+        
+        index = i + 1
+        while index <= _len:
+            tmp_list = []
+            tmp_list.append(my_list[i])
+            tmp_list.append(my_list[index])            
+            index += 1
+            final_list.append(tmp_list)
+    return final_list
 
+
+   
 list1 =  ['a', 'b', 'c']
 list2 =  [0, 1, 2, 3]
 print(combinations(list1))

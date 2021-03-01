@@ -4,14 +4,14 @@
 
 
 def adjacent_sum(numbers):
+    _len = len(numbers) - 1
+    _list = []
 
-    sum_adj = []
-    numbers_len = len(numbers) - 1
+    for num in range(0, _len):
+        val = numbers[num] + numbers[num + 1]
+        _list.append(val)
+    return _list
 
-    for i in range(0, numbers_len):
-        n = numbers[i] + numbers[i + 1]
-        sum_adj.append(n)
-    return sum_adj
 
 list1 = [3,7,2,11]
 list2 = [2,5,1,9,2,4]
