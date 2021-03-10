@@ -27,9 +27,3 @@ string3 = "Africa is Africa in German"
 print(aba_translate(string1))
 print(aba_translate(string2))
 print(aba_translate(string3))
-
-
-#Time solving: 11 minutes
-# What I learned:
-    # String concatenation
-    # Handle upper case and lower case
