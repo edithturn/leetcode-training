@@ -27,3 +27,11 @@ string3 = "Africa is Africa in German"
 print(aba_translate(string1))
 print(aba_translate(string2))
 print(aba_translate(string3))
+
+
+#TEST
+vowels = set("aeiouAEIUOU")
+vowel = "aeiouAEIUOU"
+
+print(vowel)
+print(vowels)
