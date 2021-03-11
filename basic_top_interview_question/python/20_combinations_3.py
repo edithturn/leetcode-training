@@ -4,24 +4,13 @@
 
 # combinations([0, 1, 2, 3]) # => [ [ 0, 1 ], [ 0, 2 ], [ 0, 3 ], [ 1, 2 ], [ 1, 3 ], [ 2, 3 ] ]
 
-def combinations_2(list1, list2):
-    tmp_list = []
-    final_list = []
-    for i in range(len(list1)):
-           for j in range(len(list2)):
-            tmp_list = []
-            tmp_list.append(list1[i])
-            tmp_list.append(list2[j])
-            final_list.append(tmp_list)
-    return final_list
-
 def combinations_3(list1, list2):
     tmp_list = []
     final_list = []
     for el1 in list1:
            for el2 in list2:
             tmp_list = []
-            if el2 not in list1:
+            if el2 != el1:
                 tmp_list.append(el1)
                 tmp_list.append(el2)
                 final_list.append(tmp_list)
