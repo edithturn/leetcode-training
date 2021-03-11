@@ -4,12 +4,9 @@
 
 
 def adjacent_sum(numbers):
-    _len = len(numbers) - 1
     _list = []
-
-    for num in range(0, _len):
-        val = numbers[num] + numbers[num + 1]
-        _list.append(val)
+    for num in range(len(numbers) - 1):
+        _list.append(numbers[num] + numbers[num + 1])
     return _list
 
 
