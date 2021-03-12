@@ -31,7 +31,6 @@ for i in range(20):
 print("Goodbye!")
 
 # Printing prices
-
 present_price = []
 
 for i in range(5):
@@ -40,3 +39,14 @@ for i in range(5):
     present_price.append(price)
 
 print(present_price)
+
+print("Total Sum is : " + str(sum(present_price)))
+print("The max is : " + str(max(present_price)))
+print("The min is : " + str(min(present_price)))
+
+print("Average price:" +  str(round(sum(present_price)/len(present_price),2)))
+
+# Nested loops
+for num1 in range(10):
+    for num2 in range(10):
+        print(num1, num2, " = ", num1*num2)
