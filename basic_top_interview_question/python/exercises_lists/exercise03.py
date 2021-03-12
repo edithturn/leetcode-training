@@ -8,3 +8,23 @@
 # Enter a file name: mbox.txt
 # zqian@umich.edu 195
 
+
+filename = input("Enter a file: ")
+fhand = open(filename, 'r')
+email_address = {}
+
+max_emails = 0
+for line in fhand:
+    if line.startswith("From "):
+        email = line.split()[1]
+        email_address[email] = email_address.get(email, 0) + 1
+
+max_address = None
+max_emails = 0
+
+for k in email_address:
+    if email_address[k] > max_emails:
+        max_address = k
+        max_emails = email_address[k]
+
+print(max_address, max_emails)
