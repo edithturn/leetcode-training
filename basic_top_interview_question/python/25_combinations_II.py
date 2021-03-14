@@ -15,7 +15,7 @@ def combinations(list1, list2):
         _tmp_list = []
         for j in list2:
             if j != i:
-                _str = i + " o " + j
+                _str = i + j
                 _tmp_list.append(_str)
         _list.append(_tmp_list)
     return _list    

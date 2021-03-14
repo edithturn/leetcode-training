@@ -5,7 +5,6 @@
 # combinations([0, 1, 2, 3]) # => [ [ 0, 1 ], [ 0, 2 ], [ 0, 3 ], [ 1, 2 ], [ 1, 3 ], [ 2, 3 ] ]
 
 def combinations_3(list1, list2):
-    tmp_list = []
     final_list = []
     for el1 in list1:
            for el2 in list2:
