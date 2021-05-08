@@ -38,7 +38,13 @@ nums8 = [1]
 n8 = 1
 
 
+nums8 = [2,0]
+m8 = 1
+nums9 = [1]
+n9 = 1
+
 print(merge(nums1, m1, nums2, n2))
 print(merge(nums3, m3, nums4, n4))
 print(merge(nums5, m5, nums6, n6))
 print(merge(nums7, m7, nums8, n8))
+print(merge(nums8, m8, nums9, n9))
