@@ -11,7 +11,6 @@ def isPowerOfThreeI(n):
                 break
     return True
 
-
 def isPowerOfThreeII(n):
     p = 1
     while n > 1 and n%3 == 0:
