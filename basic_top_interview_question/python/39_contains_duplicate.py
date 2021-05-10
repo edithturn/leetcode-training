@@ -6,9 +6,10 @@ def containsDuplicate(nums):
             repetitions[i] = 1
         else:
             repetitions[i] += 1
-
+    print(repetitions)
     for k in range(len(nums)):
         if repetitions[nums[k]] >= 2:
+            print(nums[k])
             return True
     return False
 
