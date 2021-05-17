@@ -10,8 +10,11 @@ def titleToNumber(columnTitle):
     For the second character "B" is beetween the second section of 26 after 26, I mean I should add 26.
     """
     result = 0
+    # Iterating each character in the tittle name
     for char in columnTitle:
+        # Calculating the integer value of a character, it is the column number
         firt_columnnumber = ord(char) - 65 + 1
+        # Adding the first calculation multiply by 26 because this is the weight we are asigning to each letter in the Excel Sheet
         result = result*26 + firt_columnnumber
     return result
 
