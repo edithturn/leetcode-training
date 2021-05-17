@@ -5,9 +5,13 @@ class TreeNode:
         self.left = left
         self.right = right
 
+"""
+Time complexity : O(n)O(n). Because we traverse the entire input tree once.
+Space complexity : The number of recursive calls is bound by the height of the tree. In the worst case, the tree is linear and the height is in O(n)O(n).
+"""
 class Solution:
     """
-    This function will check is the Tree is a mirror of itself 
+    This function will check is the Tree is a mirror of itself
     """
     def isSymmetric(self, root):
         if (root == None):
