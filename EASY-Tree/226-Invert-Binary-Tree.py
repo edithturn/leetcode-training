@@ -40,7 +40,8 @@ root.left.right = TreeNode(3)
 root.right.left = TreeNode(6)
 root.right.right = TreeNode(9)
 
-print ("Max Size deph is :" , Solution.invertTree(root))
+pp = Solution()
+pp.invertTree(root)
 
 """
 ==> Optimized Approach <==
