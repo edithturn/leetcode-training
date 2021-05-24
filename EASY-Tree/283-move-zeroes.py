@@ -14,7 +14,7 @@ def moveZeroesBruteForce(nums):
     First Approach Brute Force: For iterations:
     - To know the amount of zeros that we have
     - second: to add into a list al the non zeros number
-    - four: Add into the list the amoung of zeros that we already know
+    - four: Add into the list the amoung of zeroes that we already know
     - five: change the values of the originas list with our final list
     ||======= Big O ======= ||
     * Time complexity : O(n) 
@@ -50,7 +50,7 @@ def moveZeroesTwopointers(nums):
         
         for i in range(len(nums)):
             if nums[i] != 0:
-                nums[nonzero] = nums[i];
+                nums[nonzero] = nums[i]
                 nonzero += 1
         
         for i in range(nonzero, len(nums)):
