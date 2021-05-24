@@ -9,7 +9,7 @@
 # Input: nums = [0]
 # Output: [0]
 
-def moveZeroes(nums):
+def moveZeroesBruteForce(nums):
     """
     First Approach Brute Force: For iterations:
     - To know the amount of zeros that we have
@@ -37,9 +37,30 @@ def moveZeroes(nums):
         nums[i] = llist[i]
     
     return nums
-    
+
+def moveZeroesTwopointers(nums):
+        """
+        Two Pointers aproach, using two pointers to iterate the list and get the nonzero numbers, then save it in the same list at the front of it.
+        My second iteration will add the amount of zeros to complete the amoung of elemnents in our list (these will add at the end of the list)
+        ||======= Big O ======= ||
+        * Time complexity : O(n) 
+        * Space complexity: O(1)
+        """
+        nonzero = 0
+        
+        for i in range(len(nums)):
+            if nums[i] != 0:
+                nums[nonzero] = nums[i];
+                nonzero += 1
+        
+        for i in range(nonzero, len(nums)):
+            nums[i] = 0     
+
+        return nums
 
 nums1 = [0,1,0,3,12]
 nums2 = [0]
-print(moveZeroes(nums1))
-print(moveZeroes(nums2))
+print(moveZeroesBruteForce(nums1))
+print(moveZeroesBruteForce(nums2))
+print(moveZeroesTwopointers(nums1))
+print(moveZeroesTwopointers(nums2))
