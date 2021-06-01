@@ -57,6 +57,7 @@ def checkZeroOnes(s):
         
     return False
 
+#TODO: DP solution in Python
 
 # Test Cases
 s1 = "1101"
