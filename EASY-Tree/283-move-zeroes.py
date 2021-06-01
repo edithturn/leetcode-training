@@ -58,6 +58,8 @@ def moveZeroesTwopointers(nums):
 
         return nums
 
+# Test Cases
+
 nums1 = [0,1,0,3,12]
 nums2 = [0]
 print(moveZeroesBruteForce(nums1))

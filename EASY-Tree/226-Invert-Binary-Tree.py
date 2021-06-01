@@ -32,6 +32,9 @@ class Solution:
         current.left  = current.right
         current.right = tmp
 
+
+# Test Cases
+
 root = TreeNode(4)
 root.left = TreeNode(2)
 root.right = TreeNode(7)

@@ -32,8 +32,7 @@ class Solution:
             return True
         return False
 
-
-# O(n^2)
+# Test Cases
 
 node1 = TreeNode(1)
 node1.left = TreeNode(2)
