@@ -25,7 +25,8 @@ def maximumPopulation(logs):
 
     ||======= Big O ======= ||
     * Time complexity : O(n) 
-    * Space complexity: O(1)
+    * Space complexity: O(n)
+    where "n" is the number of years.
     """
     population_year={}
     for i in range(len(logs)):
