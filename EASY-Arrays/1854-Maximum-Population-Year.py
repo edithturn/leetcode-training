@@ -24,7 +24,7 @@ def maximumPopulation(logs):
     the earliest year.
 
     ||======= Big O ======= ||
-    * Time complexity : O(n) 
+    * Time complexity : O(nk) 
     * Space complexity: O(n)
     where "n" is the number of years.
     """
