@@ -12,9 +12,8 @@ def shuffle(nums, n):
     the sum of each element iterated in the loop. The loop will iterate the half of the list (x elements), 
     and adding how next element the next position the list of y elemets.
     ||======= Big O ======= ||
-    * Time complexity : O(n) 
-    * Space complexity: O(n)
-    where "n" is the number of elements in the mums list.
+    - Time complexity : O(n) where "n" is the number of elements in the mums list.
+    - Space complexity: O(1) because the output array is not take into consideration    
     """
     nlist = []
     
