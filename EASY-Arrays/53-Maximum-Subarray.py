@@ -14,7 +14,7 @@
 # Output: 23
 import math
 
-def maxSubArrayI(nums):
+def maxSubArrayI(nums): # TODO: Time Time Limit Exceeded	
     """
     First Approach Brute Force: Two loops, the firs one to have the take the first element in the array and with this start 
     to generate the sum of the sub arrays in the second loop.
@@ -41,8 +41,8 @@ def maxSubArrayII(nums):
     """
     Second Approach Dinamic Programming
     ||======= Big O ======= ||
-    - Time complexity : O(n^2) where "n" is the length of nums, wwe have two nested loops, each one is iterating through nums.
-    - Space complexity: O(1) I have a list and it will be the result of the substracion of the list
+    - Time complexity : O(n)
+    - Space complexity: O(1) 
     """
     max_sum_subarray = nums[0]
     current_array = nums[0]
@@ -51,6 +51,42 @@ def maxSubArrayII(nums):
        current_array = max(num, current_array + num)
        max_sum_subarray = max(max_sum_subarray, current_array)
     return max_sum_subarray
+
+
+def maxSubArrayIII(nums): # TODO: Time Time Limit Exceeded	
+    """
+    First Approach Divide and Conquer
+
+    ||======= Big O ======= ||
+    - Time complexity : 
+    - Space complexity:
+    """
+    def findBestSubarray(nums, left, right):
+        current = 0            
+        max_left_size = 0
+        max_right_size = 0
+        mid = (left +  right)//2
+        
+        if left > right:
+            return -math.inf
+
+
+        for i in range(mid - 1, left - 1, -1):
+            current = current + nums[i]
+            max_left_size = max(current, max_left_size)
+
+        current = 0
+        for j in range(mid + 1, right + 1):
+            current = current + nums[j]
+            max_right_size = max(current, max_right_size)
+
+        maximum_subarray = nums[mid] + max_left_size + max_right_size
+        left_half = findBestSubarray(nums, left, mid - 1)
+        right_half = findBestSubarray(nums, mid + 1 , right)
+        
+        return max(maximum_subarray, left_half, right_half)
+    
+    return findBestSubarray(nums, 0, len(nums) - 1)
 
 # Test Cases
 
@@ -67,3 +103,8 @@ print(maxSubArrayI(nums3))
 print(maxSubArrayII(nums1))
 print(maxSubArrayII(nums2))
 print(maxSubArrayII(nums3))
+
+
+print(maxSubArrayIII(nums1))
+print(maxSubArrayIII(nums2))
+print(maxSubArrayIII(nums3))
