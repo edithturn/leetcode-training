@@ -37,6 +37,9 @@ def isValid(s):
             return False
     return stack == []
 
+
+# Test Cases
+
 s1 = "()"
 s2 = "()[]{}"
 s3 = "(]"
