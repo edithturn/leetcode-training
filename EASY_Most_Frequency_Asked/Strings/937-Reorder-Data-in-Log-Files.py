@@ -23,6 +23,13 @@
 
 
 def reorderLogFiles(logs):
+    """
+    First Approach Force Brute using lambda
+
+    ||======= Big O ======= ||
+    - Time complexity : O(n)
+    - Space complexity: O(1)​
+    """
     final_d = []
     final_l = []
 
@@ -41,8 +48,6 @@ def reorderLogFiles(logs):
 
     return final_d
 
-
-    
 # Test Cases
 
 logs1 = ["dig1 8 1 5 1","let1 art can","dig2 3 6","let2 own kit dig","let3 art zero"]
