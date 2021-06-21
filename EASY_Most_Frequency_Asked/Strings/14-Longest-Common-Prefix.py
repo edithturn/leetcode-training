@@ -19,7 +19,7 @@ def longestCommonPrefix(strs):
                 return shortest[:index]
     return shortest
 
-
+# Test Cases
 
 str1 = ["flower","flow","flight"]
 str2 = ["dog","dogracecar","dogcar"]

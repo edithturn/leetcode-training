@@ -17,8 +17,6 @@ def addStrings(num1, num2):
     ||======= Big O ======= ||
     - Time complexity : O(max(n1, n2)) where n1 and n2 is the size of n1 and n2, respectively
     - Space complexity: O(max(n1, n2))
-​	
- ))
     """
     tsum = []
     carry = 0

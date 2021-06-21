@@ -42,6 +42,15 @@ class LinkedList:
             current = current.next
     
     def mergeTwoLists(l1, l2):
+        """
+        First Approach Two pointers, head is pointing to prehead and prehead to a new ListNode. Let's iterate the list until both has the same  lenght,
+        if value of list1 is lower than value of list2, header.next will be the lower value of list1, and if value of l2 is grather than
+        value of l1 header.next will point list2. At the end of the iteration, head will point to the next value is where the final list will 
+        start. If one list is grather than other, it will be linked to the head.next of the final list.
+        ||======= Big O ======= ||
+        - Time complexity : O(n) , where n is the  length of the list.
+        - Space complexity: O(1)
+        """
         prehead = ListNode()
         head = prehead
         
