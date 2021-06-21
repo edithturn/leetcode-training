@@ -14,20 +14,22 @@
 
 
 
-class ListNode:
-    """
-    Definition for singly-linked list.
-    """
+#class ListNode:
+#    """
+#    Definition for singly-linked list.
+#    """
+#    def __init__(self, val=0, next=None):
+#        self.val = val
+#        self.next = next
+
+class LinkedList:
     def __init__(self, val=0, next=None):
+        self.head = None
         self.val = val
         self.next = next
 
-class LinkedList:
-    def __init__(self):
-        self.head = None
-
     def insert(self, val):
-        newNode = ListNode(val)
+        newNode = LinkedList(val)
         if(self.head):
             current = self.head
             while(current.next):
@@ -43,7 +45,7 @@ class LinkedList:
             current = current.next
     
     def mergeTwoLists(self, l1, l2):
-        prehead = ListNode()
+        prehead = LinkedList()
         head = prehead
         
         while l1 and l2:
@@ -57,7 +59,7 @@ class LinkedList:
                 head.next = l2
                 l2 = l2.next
             
-            head = head.next
+            self.head = head.next
             
         if l1:
             head.next = l1
@@ -72,15 +74,17 @@ l2 = [1,3,4]
 
 
 node1 = LinkedList()
-node1.insert (1)
-node1.insert (2)
-node1.insert (4)
+node1.insert(1)
+node1.insert(2)
+node1.insert(4)
 
 node2 = LinkedList()
-node2.insert (1)
-node2.insert (3)
-node2.insert (4)
+node2.insert(1)
+node2.insert(3)
+node2.insert(4)
 
-node3 = LinkedList()
 
-print(node3.mergeTwoLists(node1, node2))
+node1.print()
+node2.print()
+
+print(LinkedList.mergeTwoLists(node1, node2))
