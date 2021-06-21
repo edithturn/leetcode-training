@@ -59,7 +59,7 @@ class LinkedList:
                 head.next = l2
                 l2 = l2.next
             
-            self.head = head.next
+            head = head.next
             
         if l1:
             head.next = l1
@@ -83,8 +83,13 @@ node2.insert(1)
 node2.insert(3)
 node2.insert(4)
 
-
+print("Linked List 01")
 node1.print()
+print("Linked List 02")
 node2.print()
 
-print(LinkedList.mergeTwoLists(node1, node2))
+object = LinkedList()
+node3 = None
+node3 = object.mergeTwoLists(node1, node2)
+print("My final Linked List")
+node3.print()
