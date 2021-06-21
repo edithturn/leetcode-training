@@ -13,23 +13,20 @@
 # Output: [0]
 
 
-
-#class ListNode:
-#    """
-#    Definition for singly-linked list.
-#    """
-#    def __init__(self, val=0, next=None):
-#        self.val = val
-#        self.next = next
+class ListNode:
+    """
+    Definition for singly-linked list.
+    """
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
 
 class LinkedList:
     def __init__(self, val=0, next=None):
         self.head = None
-        self.val = val
-        self.next = next
 
     def insert(self, val):
-        newNode = LinkedList(val)
+        newNode = ListNode(val)
         if(self.head):
             current = self.head
             while(current.next):
@@ -44,8 +41,8 @@ class LinkedList:
             print(current.val)
             current = current.next
     
-    def mergeTwoLists(self, l1, l2):
-        prehead = LinkedList()
+    def mergeTwoLists(l1, l2):
+        prehead = ListNode()
         head = prehead
         
         while l1 and l2:
@@ -83,19 +80,8 @@ node2.insert(1)
 node2.insert(3)
 node2.insert(4)
 
-print("Linked List 01")
-node1.print()
-print("Linked List 02")
-node2.print()
-
-object = LinkedList()
-node3 = None
 print("Linked List FINAL")
-#node3 = object.mergeTwoLists(node1, node2)
-#node3.print()
 
-node3 = LinkedList.mergeTwoLists(self, node1, node2)
+node3 = LinkedList(None)
+node3.head = LinkedList.mergeTwoLists(node1.head, node2.head)
 node3.print()
-
-#print("My final Linked List")
-#node3.print()
