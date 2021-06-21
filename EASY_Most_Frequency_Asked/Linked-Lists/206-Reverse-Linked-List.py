@@ -25,7 +25,8 @@ class ListNode:
 
 class LinkedList():
     """
-    First Approach Two pointers for "reverseList"
+    First Approach Two pointers for "reverseList" , saving the next value of current in a temporan variable to don't lose it when 
+    we are reversing, each eteration we will link the list with the previous value, the previous value is going to be always the current value.
 
     ||======= Big O ======= ||
     - Time complexity : O(n) , where n is the  length of the list.
