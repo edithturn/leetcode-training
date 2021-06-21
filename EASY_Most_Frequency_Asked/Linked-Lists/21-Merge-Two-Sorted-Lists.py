@@ -90,6 +90,12 @@ node2.print()
 
 object = LinkedList()
 node3 = None
-node3 = object.mergeTwoLists(node1, node2)
-print("My final Linked List")
+print("Linked List FINAL")
+#node3 = object.mergeTwoLists(node1, node2)
+#node3.print()
+
+node3 = LinkedList.mergeTwoLists(self, node1, node2)
 node3.print()
+
+#print("My final Linked List")
+#node3.print()
