@@ -23,6 +23,12 @@
 # All characters in words[i] and order are English lowercase letters.
 
 def isAlienSorted(words, order):
+    """      
+    First Approach comparing adjacent words 
+    ||======= Big O ======= ||
+    * Time complexity : O(n) = O(n + m) , Two loops
+    * Space complexity: O(1)
+    """
     order_dic = {}
 
     for index, value in enumerate(order):
