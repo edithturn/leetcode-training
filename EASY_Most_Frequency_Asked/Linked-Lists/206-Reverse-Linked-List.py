@@ -67,10 +67,10 @@ class LinkedList():
 
 node = LinkedList()
 
-node.insert (3)
-node.insert (4)
-node.insert (5)
-node.insert (6)
+node.insert(3)
+node.insert(4)
+node.insert(5)
+node.insert(6)
 node.print()
 print("After reversed node")
 node.reverseList(node)
