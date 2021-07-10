@@ -15,7 +15,6 @@
 # 1 <= n <= 5 * 104
 # -231 <= nums[i] <= 231 - 1
 
-#from collections import defaultdict
 import collections
 
 def majorityElement1(nums):
@@ -34,7 +33,7 @@ def majorityElement2(nums):
     First Approach Sorting: 
 
     ||======= Big O ======= ||
-    - Time complexity : O(n)
+    - Time complexity : O(nlgn)
     - Space complexity: O(1)
     """
     nums.sort()
