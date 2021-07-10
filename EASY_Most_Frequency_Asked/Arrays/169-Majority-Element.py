@@ -19,7 +19,7 @@ import collections
 
 def majorityElement1(nums):
     """
-    First Approach Hash Map: 
+    First Approach Hash Map
 
     ||======= Big O ======= ||
     - Time complexity : O(n)
@@ -30,7 +30,7 @@ def majorityElement1(nums):
 
 def majorityElement2(nums):
     """
-    First Approach Sorting: 
+    First Approach Sorting
 
     ||======= Big O ======= ||
     - Time complexity : O(nlgn)
@@ -38,11 +38,33 @@ def majorityElement2(nums):
     """
     nums.sort()
     return nums[len(nums)//2]
+
+def majorityElement3(nums):
+    """
+    First Approach  Boyer-Moore Majority Voting Algorithm,  is used to find the majority element
+    among the given elements that have more than N/ 2 occurrences.
+    ||======= Big O ======= ||
+    - Time complexity : O(n)
+    - Space complexity: O(1)
+    """
+    mmax = 0
+    count = 1
+    for i in range(len(nums)):
+        if nums[mmax] == nums[i]:
+            count += 1
+        else:
+            count -= 1
+        if count == 0:
+            mmax = i
+            count = 1
+    return nums[mmax]
         
 # Test Cases
 
 nums1 = [3,2,3]
 nums2 = [2,2,1,1,1,2,2]
+nums3 = [2,2,1,1,1,2,2]
 
 print(majorityElement1(nums1))
 print(majorityElement2(nums2))
+print(majorityElement3(nums3))
