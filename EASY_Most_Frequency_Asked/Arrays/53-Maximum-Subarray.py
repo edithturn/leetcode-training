@@ -16,10 +16,8 @@ import math
 
 def maxSubArrayI(nums): # TODO: Time Time Limit Exceeded	
     """
-    First Approach Brute Force: Two loops, the firs one to have the take the first element in the array and with this start 
-    to generate the sum of the sub arrays in the second loop.
-    Getting the max sum in a sub array.
-
+    First Approach Brute Force: Calculate the sucessive sum of a subarray(starting in each point),
+    then get the max value of the current sum and the new max sum of a sub array.
     ||======= Big O ======= ||
     - Time complexity : O(n^2) where "n" is the length of nums, wwe have two nested loops, each one is iterating through nums.
     - Space complexity: O(1) I have a list and it will be the result of the substracion of the list
@@ -55,7 +53,7 @@ def maxSubArrayII(nums):
 
 def maxSubArrayIII(nums): # TODO: Time Time Limit Exceeded	
     """
-    First Approach Divide and Conquer
+    First Approach Divide and Conquer: 
 
     ||======= Big O ======= ||
     - Time complexity : 
