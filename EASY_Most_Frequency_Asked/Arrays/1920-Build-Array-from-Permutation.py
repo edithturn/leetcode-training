@@ -25,7 +25,7 @@ def buildArray(nums):
     First Approach Brute Force, iterate until the length of the array, use this number as a index and get the value of the original array.
     The answer use as a input to get the values of my final array.
     ||======= Big O ======= ||
-    * Time complexity : O(n) 
+    * Time complexity : O(1) 
     * Space complexity: O(1)
     """
     ans = []        
