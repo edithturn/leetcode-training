@@ -1,7 +1,7 @@
 
 def romanToInt(s):
     """
-    Brute Force: Iterate the string in reverse, and chck if current values is grather than next one, so add to the total sum, on the contrary substract the current value
+    Brute Force: Iterate the string in reverse, and check if current values is grather than next one, so add to the total sum, on the contrary substract the current value
     ||======= Big O ======= ||
     Time complexity : O(n)
     Space complexity: O(1)
