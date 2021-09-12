@@ -6,7 +6,7 @@
 - [x] Roman to Integer
 - [x] Valid Parentheses
 - [ ] Merge Two Sorted Lists
-- [ ] Maximum Subarray
+- [x] Maximum Subarray
 - [ ] Merge Sorted Array
 - [x] Linked List Cycle
 - [x] Min Stack
