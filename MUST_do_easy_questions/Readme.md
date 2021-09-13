@@ -7,7 +7,7 @@
 - [x] Valid Parentheses
 - [ ] Merge Two Sorted Lists
 - [x] Maximum Subarray
-- [ ] Merge Sorted Array
+- [x] Merge Sorted Array
 - [x] Linked List Cycle
 - [x] Min Stack
 - [x] Intersection of Two Linked Lists
