@@ -5,13 +5,13 @@
 
 - [x] Roman to Integer
 - [x] Valid Parentheses
-- [ ] Merge Two Sorted Lists
+- [x] Merge Two Sorted Lists
 - [x] Maximum Subarray
 - [x] Merge Sorted Array
 - [x] Linked List Cycle
 - [x] Min Stack
 - [x] Intersection of Two Linked Lists
-- [ ] Majority Element
+- [x] Majority Element
 - [x] Factorial Trailing Zeroes
 - [ ] Rotate Array
 - [ ] House Robber
