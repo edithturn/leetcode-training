@@ -1,5 +1,12 @@
 
 def isHappy(n):
+    """
+    Two pointer, slow and fast: move the fast pointer until reaches 1 or is equal to slower pointer. If it reaches one return true.
+    Squared function to calculate the sum of all the squares of the digits, then move through these number with fast and slow pointers.
+    ||======= Big O ======= ||
+    Time complexity : O(n)
+    Space complexity: O(1)
+    """
     slow = squared(n)
     fast = squared(squared(n))
     while slow != fast and fast != 1:
