@@ -1,12 +1,5 @@
 
 def rob(nums):
-    """
-    Dinamic Programming: get the sum of nonadjacent values, storage the maximum value in the new list. Each time it will be the max. 
-    At the end the max value of nonadjacent value will be at the end of the array
-    ||======= Big O ======= ||
-    Time complexity : O(n)
-    Space complexity: O(n)
-    """
     lenght = len(nums)
     
     if lenght == 0:
@@ -25,15 +18,16 @@ def rob(nums):
 
 # Test Cases
 nums1 = [1,2,3,1]
+print(rob(nums1)) # 4
 nums2 = [2,7,9,3,1]
+print(rob(nums2)) # 12
 nums3 = [2,1,1,2]
+print(rob(nums3)) # 4
 nums4 = [0]
+print(rob(nums4)) # 0
 nums5 = [1,2]
+print(rob(nums5)) # 2
 
 
-print(rob(nums1))
-print(rob(nums2))
-print(rob(nums3))
-print(rob(nums4))
-print(rob(nums5))
+
 

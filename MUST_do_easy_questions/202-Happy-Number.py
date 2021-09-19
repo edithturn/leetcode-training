@@ -8,7 +8,7 @@ def isHappy(n):
     Space complexity: O(1)
     """
     slow = squared(n)
-    fast = squared(squared(n))
+    fast = squared(squared(n)) 
     while slow != fast and fast != 1:
         slow = squared(slow)
         fast = squared(squared(fast))
