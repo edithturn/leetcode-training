@@ -1,6 +1,5 @@
 # Must Do Easy Questions
 
-
 ## DAY 01
 
 - [x] Roman to Integer
@@ -13,12 +12,12 @@
 - [x] Intersection of Two Linked Lists
 - [x] Majority Element
 - [x] Factorial Trailing Zeroes
-- [ ] Rotate Array
-- [ ] House Robber
-- [ ] Happy Number
-- [ ] Count Primes
-- [ ] Isomorphic Strings
-- [ ] Invert Binary Tree
+- [x] Rotate Array
+- [x] House Robber
+- [x] Happy Number
+- [x] Count Primes
+- [x] Isomorphic Strings
+- [x] Invert Binary Tree
 - [ ] Valid Anagram
 - [ ] Sum of Two Integers
 - [ ] Find All Numbers Disappeared in an Array
@@ -35,8 +34,5 @@
 - [ ] Maximize Distance to Closest Person
 - [ ] Peak Index in a Mountain Array
 - [ ] Find Words That Can Be Formed by Characters
-
-
-
 
 [Complete list here](https://leetcode.com/list/?selectedList=5jvn3kj6)

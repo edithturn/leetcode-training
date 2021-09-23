@@ -18,7 +18,6 @@ def isIsomorphic(s, t):
         td[t[i]] = s[i]            
     return True
 
-
 # Test Cases
 print(isIsomorphic("egg", "add")) # True
 print(isIsomorphic("foo", "bar")) # False
