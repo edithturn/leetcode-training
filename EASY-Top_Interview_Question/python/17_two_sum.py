@@ -4,13 +4,17 @@ def twoSum(nums, target):
 
     for i, num in enumerate(nums):
         val = target - num
-
         if val in values:
-            print(values[val])
             return (values[val], i)
         values[num] = i
+    return []
 
-list_ = [2,7,11,15]
-target_ =  9
+list1 = [2,7,11,15]
+target1 =  9
 
-print(twoSum(list_, target_))
+
+list2 = [3, 5, -4, 8, 11, 1, -1, 6]
+target2 =10
+
+print(twoSum(list1, target1))
+print(twoSum(list2, target2))

@@ -10,6 +10,7 @@ def twoSum(nums, target):
             result[num] = i
         else:
             return [result[complement], i]
+    return []
 
 
 # Test Cases
