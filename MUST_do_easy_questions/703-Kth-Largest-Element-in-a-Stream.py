@@ -33,7 +33,6 @@ class KthLargest:
         return self.minheap[0]
             
 
-
 # Your KthLargest object will be instantiated and called as such:
 #["KthLargest", "add", "add", "add", "add", "add"]
 #[[3, [4, 5, 8, 2]], [3], [5], [10], [9], [4]]
