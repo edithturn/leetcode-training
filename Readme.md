@@ -5,8 +5,8 @@
 ## [Must Do Easy Questions LeetCode](MUST_do_easy_questions)
 
 - [x] EASY  :blush:
-    - :heavy_check_mark: Roman to Integer 
-    - :heavy_check_mark: Valid Parentheses
+      :heavy_check_mark: Roman to Integer 
+      :heavy_check_mark: Valid Parentheses
     - :heavy_check_mark: Merge Two Sorted Lists
     - :heavy_check_mark: Maximum Subarray
     - :heavy_check_mark: Merge Sorted Array
