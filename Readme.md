@@ -5,37 +5,38 @@
 ## [Must Do Easy Questions LeetCode](MUST_do_easy_questions)
 
 - [x] EASY  :blush:
-    - [x] Roman to Integer,     - [x] Valid Parentheses
-    - [x] Merge Two Sorted Lists
-    - [x] Maximum Subarray
-    - [x] Merge Sorted Array
-    - [x] Linked List Cycle
-    - [x] Min Stack
-    - [x] Intersection of Two Linked Lists
-    - [x] Majority Element
-    - [x] Factorial Trailing Zeroes
-    - [x] Rotate Array
-    - [x] House Robber
-    - [x] Happy Number
-    - [x] Count Primes
-    - [x] Isomorphic Strings
-    - [x] Invert Binary Tree
-    - [x] Valid Anagram
-    - [x] Sum of Two Integers
-    - [x] Find All Numbers Disappeared in an Array
-    - [x] Reverse Words in a String III
-    - [x] Subtree of Another Tree
-    - [x] Can Place Flowers
-    - [x] Merge Two Binary Trees
-    - [x] Non-decreasing Array
-    - [x] Trim a Binary Search Tree
-    - [x] Longest Continuous Increasing Subsequence
-    - [x] N-ary Tree Preorder Traversal
-    - [x] Kth Largest Element in a Stream
-    - [x] Design HashSet
-    - [x] Maximize Distance to Closest Person
-    - [x] Peak Index in a Mountain Array
-    - [x] Find Words That Can Be Formed by Characters
+    - :heavy_check_mark: Roman to Integer 
+    - :heavy_check_mark: Valid Parentheses
+    - :heavy_check_mark: Merge Two Sorted Lists
+    - :heavy_check_mark: Maximum Subarray
+    - :heavy_check_mark: Merge Sorted Array
+    - :heavy_check_mark: Linked List Cycle
+    - :heavy_check_mark: Min Stack
+    - :heavy_check_mark: Intersection of Two Linked Lists
+    - :heavy_check_mark: Majority Element
+    - :heavy_check_mark: Factorial Trailing Zeroes
+    - :heavy_check_mark: Rotate Array
+    - :heavy_check_mark: House Robber
+    - :heavy_check_mark: Happy Number
+    - :heavy_check_mark: Count Primes
+    - :heavy_check_mark: Isomorphic Strings
+    - :heavy_check_mark: Invert Binary Tree
+    - :heavy_check_mark: Valid Anagram
+    - :heavy_check_mark: Sum of Two Integers
+    - :heavy_check_mark: Find All Numbers Disappeared in an Array
+    - :heavy_check_mark: Reverse Words in a String III
+    - :heavy_check_mark: Subtree of Another Tree
+    - :heavy_check_mark: Can Place Flowers
+    - :heavy_check_mark: Merge Two Binary Trees
+    - :heavy_check_mark: Non-decreasing Array
+    - :heavy_check_mark: Trim a Binary Search Tree
+    - :heavy_check_mark: Longest Continuous Increasing Subsequence
+    - :heavy_check_mark: N-ary Tree Preorder Traversal
+    - :heavy_check_mark: Kth Largest Element in a Stream
+    - :heavy_check_mark: Design HashSet
+    - :heavy_check_mark: Maximize Distance to Closest Person
+    - :heavy_check_mark: Peak Index in a Mountain Array
+    - :heavy_check_mark: Find Words That Can Be Formed by Characters
 
 ## [Must Do Medium Questions LeetCode](MUST_do_medium_questions)
 
