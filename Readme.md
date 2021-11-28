@@ -5,8 +5,7 @@
 ## [Must Do Easy Questions LeetCode](MUST_do_easy_questions)
 
 - [x] EASY  :blush:
-    - [x] Roman to Integer
-    - [x] Valid Parentheses
+    - [x] Roman to Integer,     - [x] Valid Parentheses
     - [x] Merge Two Sorted Lists
     - [x] Maximum Subarray
     - [x] Merge Sorted Array
@@ -41,15 +40,15 @@
 ## [Must Do Medium Questions LeetCode](MUST_do_medium_questions)
 
 - [ ] Medium :relaxed:
-    - [ ]Longest Substring Without Repeating Characters
-    - [ ]Longest Palindromic Substring
-    - [ ]Container With Most Water
-    - [ ]Letter Combinations of a Phone Number
-    - [ ]Generate Parentheses
-    - [ ]Swap Nodes in Pairs
-    - [ ]Divide Two Integers
-    - [ ]Next Permutation
-    - [ ]Search in Rotated Sorted Array
+    - [ ] Longest Substring Without Repeating Characters
+    - [ ] Longest Palindromic Substring
+    - [ ] Container With Most Water
+    - [ ] Letter Combinations of a Phone Number
+    - [ ] Generate Parentheses
+    - [ ] Swap Nodes in Pairs
+    - [ ] Divide Two Integers
+    - [ ] Next Permutation
+    - [ ] Search in Rotated Sorted Array
     - [ ] Permutations
     - [ ] Rotate Image
     - [ ] Group Anagrams
