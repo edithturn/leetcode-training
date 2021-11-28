@@ -4,9 +4,9 @@
 
 ## [Must Do Easy Questions LeetCode](MUST_do_easy_questions)
 
-- [x] EASY  :blush:
-      :heavy_check_mark: Roman to Integer 
-      :heavy_check_mark: Valid Parentheses
+- [x] **EASY**  :blush:
+    - :heavy_check_mark: Roman to Integer 
+    - :heavy_check_mark: Valid Parentheses
     - :heavy_check_mark: Merge Two Sorted Lists
     - :heavy_check_mark: Maximum Subarray
     - :heavy_check_mark: Merge Sorted Array
@@ -40,66 +40,66 @@
 
 ## [Must Do Medium Questions LeetCode](MUST_do_medium_questions)
 
-- [ ] Medium :relaxed:
-    - [ ] Longest Substring Without Repeating Characters
-    - [ ] Longest Palindromic Substring
-    - [ ] Container With Most Water
-    - [ ] Letter Combinations of a Phone Number
-    - [ ] Generate Parentheses
-    - [ ] Swap Nodes in Pairs
-    - [ ] Divide Two Integers
-    - [ ] Next Permutation
-    - [ ] Search in Rotated Sorted Array
-    - [ ] Permutations
-    - [ ] Rotate Image
-    - [ ] Group Anagrams
-    - [ ] Merge Intervals
-    - [ ] Sort Colors
-    - [ ] Binary Tree Inorder Traversal
-    - [ ] Binary Tree Level Order Traversal
-    - [ ] Construct Binary Tree from Inorder and Postorder Traversal
-    - [ ] Populating Next Right Pointers in Each Node II
-    - [ ] Single Number II
-    - [ ] Copy List with Random Pointer
-    - [ ] Linked List Cycle II
-    - [ ] LRU Cache
-    - [ ] Insertion Sort List
-    - [ ] Sort List
-    - [ ] Reverse Words in a String
-    - [ ] Fraction to Recurring Decimal
-    - [ ] Largest Number
-    - [ ] Number of Islands
-    - [ ] Course Schedule
-    - [ ] Implement Trie (Prefix Tree)
-    - [ ] Course Schedule II
-    - [ ] House Robber II
-    - [ ] Kth Largest Element in an Array
-    - [ ] Combination Sum III
-    - [ ] Kth Smallest Element in a BST
-    - [ ] Lowest Common Ancestor of a Binary Tree
-    - [ ] Find the Celebrity
-    - [ ] Game of Life
-    - [ ] Longest Increasing Subsequence
-    - [ ] Range Sum Query 2D - Immutable
-    - [ ] Odd Even Linked List
-    - [ ] Counting Bits
-    - [ ] Top K Frequent Elements
-    - [ ] Design Twitter
-    - [ ] Combination Sum IV
-    - [ ] Pacific Atlantic Water Flow
-    - [ ] Maximum XOR of Two Numbers in an Array
-    - [ ] Longest Repeating Character Replacement
-    - [ ] Sequence Reconstruction
-    - [ ] 4Sum II
-    - [ ] Longest Palindromic Subsequence
-    - [ ] Contiguous Array
-    - [ ] Minesweeper
-    - [ ] Find K Closest Elements
-    - [ ] Partition Labels
-    - [ ] Reorganize String
-    - [ ] Sum of Subarray Minimums
-    - [ ] Remove Zero Sum Consecutive Nodes from Linked List
-    - [ ] Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
+- [ ] **MEDIUM** :relaxed:
+    - :eyes: Longest Substring Without Repeating Characters
+    - :eyes: Longest Palindromic Substring
+    - :eyes: Container With Most Water
+    - :eyes: Letter Combinations of a Phone Number
+    - :eyes: Generate Parentheses
+    - :eyes: Swap Nodes in Pairs
+    - :eyes: Divide Two Integers
+    - :eyes: Next Permutation
+    - :eyes: Search in Rotated Sorted Array
+    - :eyes: Permutations
+    - :eyes: Rotate Image
+    - :eyes: Group Anagrams
+    - :eyes: Merge Intervals
+    - :eyes: Sort Colors
+    - :eyes: Binary Tree Inorder Traversal
+    - :eyes: Binary Tree Level Order Traversal
+    - :eyes: Construct Binary Tree from Inorder and Postorder Traversal
+    - :eyes: Populating Next Right Pointers in Each Node II
+    - :eyes: Single Number II
+    - :eyes: Copy List with Random Pointer
+    - :eyes: Linked List Cycle II
+    - :eyes: LRU Cache
+    - :eyes: Insertion Sort List
+    - :eyes: Sort List
+    - :eyes: Reverse Words in a String
+    - :eyes: Fraction to Recurring Decimal
+    - :eyes: Largest Number
+    - :eyes: Number of Islands
+    - :eyes: Course Schedule
+    - :eyes: Implement Trie (Prefix Tree)
+    - :eyes: Course Schedule II
+    - :eyes: House Robber II
+    - :eyes: Kth Largest Element in an Array
+    - :eyes: Combination Sum III
+    - :eyes: Kth Smallest Element in a BST
+    - :eyes: Lowest Common Ancestor of a Binary Tree
+    - :eyes: Find the Celebrity
+    - :eyes: Game of Life
+    - :eyes: Longest Increasing Subsequence
+    - :eyes: Range Sum Query 2D - Immutable
+    - :eyes: Odd Even Linked List
+    - :eyes: Counting Bits
+    - :eyes: Top K Frequent Elements
+    - :eyes: Design Twitter
+    - :eyes: Combination Sum IV
+    - :eyes: Pacific Atlantic Water Flow
+    - :eyes: Maximum XOR of Two Numbers in an Array
+    - :eyes: Longest Repeating Character Replacement
+    - :eyes: Sequence Reconstruction
+    - :eyes: 4Sum II
+    - :eyes: Longest Palindromic Subsequence
+    - :eyes: Contiguous Array
+    - :eyes: Minesweeper
+    - :eyes: Find K Closest Elements
+    - :eyes: Partition Labels
+    - :eyes: Reorganize String
+    - :eyes: Sum of Subarray Minimums
+    - :eyes: Remove Zero Sum Consecutive Nodes from Linked List
+    - :eyes: Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 
 
 
