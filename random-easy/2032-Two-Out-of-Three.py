@@ -1,4 +1,11 @@
 def twoOutOfThree(nums1, nums2, nums3):
+    """
+    Using Set and Dictionary.
+
+    Big O:
+    Time: O(n)
+    Space: O(g), where g are all the elements for the three lists
+    """
     
     together  = []
     final = {}
