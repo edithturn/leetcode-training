@@ -5,7 +5,12 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-       
+    """
+    Using Recursion:
+    Big O:
+    Time: O(n), since I am iterating all the nodes to find  root-to-leaf path.
+    Space: O(n), I am not using extra memory for save the array, this is already defined on the output.
+    """
     def binaryTreePaths(self, root: Optional[TreeNode]) -> List[str]:       
         _list = []
         path =""
