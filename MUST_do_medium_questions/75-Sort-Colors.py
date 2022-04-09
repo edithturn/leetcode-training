@@ -1,3 +1,5 @@
+
+
 def sortColorsI(nums):
     """
     Force Brute: Compare the first element with the rest of element and swap them if this is grather than others.
@@ -19,7 +21,8 @@ def sortColorsI(nums):
     
 def sortColorsII(nums):
     """
-    Three Pointers: Since there are just three colors we can set an if for each one, locating the higher number at the end of the array.
+    Three Pointers: Since there are just three colors we can set an if for each one, 
+    locating the higher number at the end of the array.
 
     Big O
     -----
