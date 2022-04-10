@@ -37,3 +37,22 @@ def middleNode( head):
     
     return slow
         
+def middleNode(head):
+    """
+    Two Pointers: slow and fast, move one faster pointer every two nodes
+    until it finds the end of the Linked List, so we are putting a slow pointer
+    in the middle of the LinkedList and it is the node to return.
+
+    Big O
+    =====
+    Time: O(N), we are visiting each node of the linked list one time.
+    Space: O(N), no extra space is needed to solve this problem
+    """
+    if head.next == None:
+        return head            
+    slow, fast = head, head        
+    while fast.next:
+        slow = slow.next
+        fast = fast.next.next            
+        if fast == None or fast.next == None:
+            return slow
