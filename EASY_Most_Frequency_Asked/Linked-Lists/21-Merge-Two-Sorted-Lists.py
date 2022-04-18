@@ -73,6 +73,33 @@ class LinkedList:
             head.next = l2
         
         return prehead.next
+
+    def mergeTwoLists(list1, list2):
+        """
+        Two pointers to compare nodes of list1 and list2 and 
+        set the pointer of the new list in the least of them
+        Big (O) 
+        =======
+        Time complexity : O(n).
+        Space complexity: O(1)
+        """
+        newList = ListNode(0)
+        prev = newList
+        l1 = list1
+        l2 = list2        
+        while l1 and l2:
+            if l1.val <= l2.val:
+                prev.next = l1
+                l1 = l1.next
+            else:
+                prev.next = l2
+                l2 = l2.next
+            prev = prev.next    
+
+        prev.next = (l1 or l2)
+        return newList.next
+
+        
             
 # Test Cases
 l1 = [1,2,4]
